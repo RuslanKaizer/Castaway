@@ -4,40 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Castaway</title>
+    <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <div class="body__wrapper">
-        <header class="header">
+        <header class="container header">
             <h1 class="header__title">Castaway</h1>
             <nav class="header__navigation">
-                <ul class="header__list">
-                    <li class="header__item"><a class="header__link" href="#">Home</a></li>
-                    <li class="header__item"><a class="header__link" href="#">Episodes</a></li>
-                    <li class="header__item"><a class="header__link" href="#">About</a></li>
-                    <li class="header__item"><a class="header__link" href="#">Contact</a></li>
+                <ul class="nav__list">
+                    <li class="nav__item"><a class="nav__link" href="#">Home</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#">Episodes</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#">About</a></li>
+                    <li class="nav__item"><a class="nav__link" href="#">Contact</a></li>
                 </ul>
             </nav>
         </header>
 
         <main>
-            <section class="main-intro">
-                <div class="main-intro__wrapper">
-                    <img src="./images/man1.png" width="650" height="873" alt="black man with microphone">
-                </div>
-                <div class="main-intro__wrapper">
-                    <div>
-                        <h2 class="main-intro__title">Take your <br> podcast to the <br><span class="main-intro__text-underline">next</span><span class="main-intro__text-bold"> level</span></h2>
+            <section class="intro">
+                <div class="container intro__wrapper">
+                    <div class="intro__image">
+                        <img src="./images/man1.png" width="650" height="873" alt="black man with microphone">
                     </div>
-                    <div>
-                        <span class="main-intro__caption">Listen on</span>
-                        <ul class="main-intro__music-list">
-                            <li class="main-intro__music-item"><a class="main-intro__music-link music-link--spotify" href="#">Spotify</a></li>
-                            <li class="main-intro__music-item"><a class="main-intro__music-link music-link--music3" href="#">Music3</a></li>
-                            <li class="main-intro__music-item"><a class="main-intro__music-link music-link--soundcloud" href="#">Soundcloud</a></li>
-                            <li class="main-intro__music-item"><a class="main-intro__music-link music-link--music1" href="#">Music1</a></li>
-                            <li class="main-intro__music-item"><a class="main-intro__music-link music-link--music2" href="#">Music2</a></li>
-                        </ul>
+                    <div class="intro__content">
+                            <h2 class="intro__title">Take your podcast to the<span class="intro__title--underline"> next</span><span class="intro__title--bold"> level</span></h2>
+                        <div class="intro__list-wrapper">
+                            <span class="intro__caption">Listen on</span>
+                            <ul class="intro__music-list">
+                                <li class="intro__music-item"><a class="intro__music-link music-link--spotify" href="#" aria-label="Go to music"></a></li>
+                                <li class="intro__music-item"><a class="intro__music-link music-link--music3" href="#" aria-label="Go to music"></a></li>
+                                <li class="intro__music-item"><a class="intro__music-link music-link--soundcloud" href="#" aria-label="Go to music"></a></li>
+                                <li class="intro__music-item"><a class="intro__music-link music-link--music1" href="#" aria-label="Go to music"></a></li>
+                                <li class="intro__music-item"><a class="intro__music-link music-link--music2" href="#" aria-label="Go to music"></a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </section>
