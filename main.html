@@ -43,56 +43,81 @@
                 </div>
             </section>
 
-            <section class="main-episodes">
-                <h2 class="main-episodes__header">Latest episodes</h2>
-                <button class="main-episodes__button">View all episodes</button>
+            <section class="episodes container">
+                <div class="episodes__wrapper">
+                    <h2 class="episodes__header">Latest episodes</h2>
+                    <button class="episodes__button">View all episodes</button>
+                </div>
 
-                <article class="main-episodes__episode-card">
-                    <img src="./images/micro.png" width="389" height="465" alt="audio equipment">
-                    <a class="main-episodes__link-category" href="">Gear</a>
-                    <div class="main-episodes__counter">Episode 3</div>
-                    <h3 class="main-episodes__title">Should you get outbouard audio gear</h3>
-                    <p class="main-episodes__description">is hardware really worth it when it comes to podcasting? the answer is... it depends. Here's our reasons on why you might want to consider picking something up.</p>
-                    <button class="main-episodes__button">View Episode Details</button>
+                <article class="episodes__episode-card">
+                    <div class="episodes__image-wrap">
+                        <img src="./images/micro.png" width="389" height="465" alt="audio equipment">
+                    </div>
+                    <div class="episodes__content-wrap">
+                        <a class="episodes__link-category" href="">Gear</a>
+                        <div class="episodes__counter">Episode 3</div>
+                        <h3 class="episodes__title">Should you get outbouard audio gear</h3>
+                        <p class="episodes__description">is hardware really worth it when it comes to podcasting? the answer is... it depends. Here's our reasons on why you might want to consider picking something up.</p>
+                        <button class="episodes__button">View Episode Details</button>
+                    </div>
                 </article>
 
-                <article class="main-episodes__episode-card">
-                    <img src="./images/micro1.png" width="389" height="432" alt="microphone">
-                    <a class="main-episodes__link-category" href="">Tips & Tricks</a>
-                    <div class="main-episodes__counter">Episode 2</div>
-                    <h3 class="main-episodes__title">Mic tricks to take you to the next level</h3>
-                    <p class="main-episodes__description">Stop rolling with those default settings on your mic. These small tweaks will take you from sounding good to great.</p>
-                    <button class="main-episodes__button">View Episode Details</button>
+                <article class="episodes__episode-card">
+                    <div class="episodes__image-wrap">
+                        <img src="./images/micro1.png" width="389" height="432" alt="microphone">
+                    </div>
+                    <div class="episodes__content-wrap">
+                        <a class="episodes__link-category" href="">Tips & Tricks</a>
+                        <div class="episodes__counter">Episode 2</div>
+                        <h3 class="episodes__title">Mic tricks to take <br> you to the next level</h3>
+                        <p class="episodes__description">Stop rolling with those default settings on your mic. These small tweaks will take you from sounding good to great.</p>
+                        <button class="episodes__button">View Episode Details</button>
+                    </div>
                 </article>
 
-                <article class="main-episodes__episode-card">
-                    <img src="./images/man2.png" width="389" height="432" alt="black man with microphone">
-                    <a class="main-episodes__link-category" href="#">Gear</a>
-                    <div class="main-episodes__counter">Episode 1</div>
-                    <h3 class="main-episodes__title">The best microphone under $200</h3>
-                    <p class="main-episodes__description">With so many microphones on the market, how are you supposed to know what's best? Take a look at our top picks.</p>
-                    <button class="main-episodes__button">View Episodes Details</button>
+                <article class="episodes__episode-card">
+                    <div class="episodes__image-wrap">
+                        <img src="./images/man2.png" width="389" height="432" alt="black man with microphone">
+                    </div>
+                    <div class="episodes__content-wrap">
+                        <a class="episodes__link-category" href="#">Gear</a>
+                        <div class="episodes__counter">Episode 1</div>
+                        <h3 class="episodes__title">The best microphone under $200</h3>
+                        <p class="episodes__description">With so many microphones on the market, how are you supposed to know what's best? Take a look at our top picks.</p>
+                        <button class="episodes__button">View Episode Details</button>
+                    </div>
                 </article>
             </section>
 
-            <section class="main-meeting">
-                <!-- decorative image-->
-                <div class="main-meeting__intro">Meet your host</div>
-                <h2 class="main-meeting__title">Jacob Paulander</h2>
-                <p class="main-meeting__description">Jacob has a background in audion engineering, and has been podcastiong since the early days.</p>
-                <p class="main-meeting__description">He's here to help you level up your game by sharing everything he's learned along the way.</p>
-                <img src="./images/man3.png" width="650" height="743" alt="Jacob Pauliner">
+            <section class="meeting container">
+                <div class="meeting__content">
+                    <div class="meeting__arrow"></div>
+                    <div class="meeting__intro">Meet your host</div>
+                    <h2 class="meeting__title">Jacob Paulander</h2>
+                    <p class="meeting__description">Jacob has a background in audion engineering, and has been podcastiong since the early days.</p>
+                    <p class="meeting__description">He's here to help you level up your game by sharing everything he's learned along the way.</p>
+                </div>
+                <div class="meeting__wrapper">
+                    <img src="./images/man3.png" width="650" height="743" alt="Jacob Pauliner">
+                </div>
             </section>
 
-            <section class="main-newsletter">
-                <div class="main-newsletter__info">Email Newsletter</div>
-                <h2 class="main-newsletter__title">Subscibe for updates</h2>
-                <form class="main-newsletter__form" action="">
-                    <input type="text" id="username" name="firstname" value="Name">
-                    <label for="username"></label>
-                    <input type="email" id="email" name="email" value="Email">
-                    <label for="email"></label>
-                    <input type="submit" value="Submit">
+            <section class="newsletter container">
+                <div class="newsletter__content">
+                    <div class="newsletter__info">Email Newsletter</div>
+                    <h2 class="newsletter__title">Subsrcibe for updates</h2>
+                </div>
+                <form class="newsletter__form" method="post">
+                    <p class="newsletter__form--full-width">
+                        <input type="text" id="username" name="firstname" value="Name">
+
+                    </p>
+                    <p class="newsletter__form--full-width">
+                        <input type="email" id="email" name="email" value="Email">
+                    </p>
+                    <p class="newsletter__form--button">
+                        <input class="newsletter__form--button" type="submit" value="Submit">
+                    </p>
                 </form>
             </section>
 
