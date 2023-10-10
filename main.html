@@ -109,11 +109,11 @@
                 </div>
                 <form class="newsletter__form" method="post">
                     <p class="newsletter__form--full-width">
-                        <input type="text" id="username" name="firstname" value="Name">
+                        <input type="text" id="username" name="firstname" value="Name" required>
 
                     </p>
                     <p class="newsletter__form--full-width">
-                        <input type="email" id="email" name="email" value="Email">
+                        <input type="email" id="email" name="email" value="Email" required>
                     </p>
                     <p class="newsletter__form--button">
                         <input class="newsletter__form--button" type="submit" value="Submit">
@@ -121,47 +121,50 @@
                 </form>
             </section>
 
-            <section class="main-comments">
-                <h2 class="visually-hidden">Comments</h2>
-                <div>
-                    <!-- decorative image-->
-                    <p>I can't recommend this podcast enough</p>
-                    <p>Betty Lacey</p>
+            <article class="comments container">
+                <div class="comments__wrapper">
+                    <div class="comments__content">
+                        <!-- decorative image-->
+                        <p class="comments__title">I can't recommend this podcast enough</p>
+                        <p class="comments__author">Betty Lacey</p>
+                    </div>
+                    <div class="comments__content">
+                        <p class="comments__title">Jacob is the best in the business</p>
+                        <p class="comments__author">Adam Driver</p>
+                    </div>
+                    <div class="comments__content">
+                        <p class="comments__title">Whoa whoa, let me take some notes!</p>
+                        <p class="comments__author">Jessica Knowl</p>
+                    </div>
                 </div>
-                <div>
-                    <p>Jacob is the best in the business</p>
-                    <p>Adam Driver</p>
+                <div class="comments__wrapper">
+                    <div class="comments__content">
+                        <p class="comments__title">Every episode is a gem!</p>
+                        <p class="comments__author">Scott Adams</p>
+                    </div>
+                    <div class="comments__content">
+                        <p class="comments__title">A wealth of audio knowledge</p>
+                        <p class="comments__author">Marcus Brown</p>
+                    </div>
+                    <div class="comments__content">
+                        <p class="comments__title">I've upped my game considerably since i started listening</p>
+                        <p class="comments__author">Steven Blast</p>
+                    </div>
                 </div>
-                <div>
-                    <p>Every episode is a gem!</p>
-                    <p>Jessica Knowl</p>
-                </div>
-                <div>
-                    <p>Whoa whoa, let me take some notes!</p>
-                    <p>Scott Adams</p>
-                </div>
-                <div>
-                    <p>A wealth of audio knowledge</p>
-                    <p>Marcus Brown</p>
-                </div>
-                <div>
-                    <p>I've upped my game considerably since i started listening</p>
-                    <p>Steven Blast</p>
-                </div>
-            </section>
+            </article>
         </main>
 
-        <footer class="footer">
+        <footer class="footer container">
             <div class="footer__container">
                 <h2 class="footer__title">Castaway</h2>
                 <ul class="footer__social-list">
-                    <li class="footer__social-item"><a class="footer__social-link social-link--instagramm" href="">instagramm</a></li>
-                    <li class="footer__social-item"><a class="footer__social-link social-link--twitter" href="">twitter</a></li>
-                    <li class="footer__social-item"><a class="footer__social-link social-link--facebook" href="">facebook</a></li>
+                    <li class="footer__social-item"><a class="footer__social-link social-link--instagramm" href="" aria-label="Go to instagramm"></a></li>
+                    <li class="footer__social-item"><a class="footer__social-link social-link--twitter" href="" aria-label="Go to twitter"></a></li>
+                    <li class="footer__social-item"><a class="footer__social-link social-link--facebook" href="" aria-label="Go to facebook"></a></li>
                 </ul>
             </div>
-            <div class="footer__container">
-                <nav class="footer_nav">
+            <div class="footer__menu">
+                <nav class="footer__nav">
                     <ul class="footer__nav-list">
                         <li class="footer__nav-item"><a class="footer__nav-link" href="#">Home</a></li>
                         <li class="footer__nav-item"><a class="footer__nav-link" href="#">About</a></li>
@@ -171,21 +174,21 @@
                 </nav>
 
                 <ul class="footer__link-list">
-                    <li class="footer__item"><a href="#"></a>Style Guide</li>
-                    <li class="footer__item"><a href="#"></a>Instruction</li>
-                    <li class="footer__item"><a href="#"></a>Changelog</li>
-                    <li class="footer__item"><a href="#"></a>Credit</li>
-                    <li class="footer__item"><a href="#"></a>Licenses</li>
+                    <li class="footer__link-item"><a href="#">Style Guide</a></li>
+                    <li class="footer__link-item"><a href="#">Instruction</a</li>
+                    <li class="footer__link-item"><a href="#">Changelog</a></li>
+                    <li class="footer__link-item"><a href="#">Credit</a></li>
+                    <li class="footer__link-item"><a href="#">Licenses</a></li>
                 </ul>
             </div>
 
-            <div class="footer__container">
+            <div class="footer__music">
                 <ul class="footer__music-list">
-                    <li class="footer__music-item"><a class="footer__music-link music-link--spotify" href="#">Spotify</a></li>
-                    <li class="footer__music-item"><a class="footer__music-link music-link--music3" href="#">Music3</a></li>
-                    <li class="footer__music-item"><a class="footer__music-link music-link--soundcloud" href="#">Soundcloud</a></li>
-                    <li class="footer__music-item"><a class="footer__music-link music-link--music1" href="#">music1</a></li>
-                    <li class="footer__music-item"><a class="footer__music-link music-link--music2" href="#">music2</a></li>
+                    <li class="footer__music-item"><a class="footer__music-link music-link--spotify" href="#"></a></li>
+                    <li class="footer__music-item"><a class="footer__music-link music-link--music3" href="#"></a></li>
+                    <li class="footer__music-item"><a class="footer__music-link music-link--soundcloud" href="#"></a></li>
+                    <li class="footer__music-item"><a class="footer__music-link music-link--music1" href="#"></a></li>
+                    <li class="footer__music-item"><a class="footer__music-link music-link--music2" href="#"></a></li>
                 </ul>
             </div>
         </footer>
